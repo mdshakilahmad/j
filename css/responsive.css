@@ -9,8 +9,23 @@
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1199px) {
     header .menu ul li {
-        padding-left: 26px;
+        padding-left: 30px;
     }
+
+    .banner .main {
+        flex-direction: column-reverse;
+    }
+
+    .banner_text {
+        margin-right: 0;
+        align-self: flex-start;
+        margin-top: 48px;
+    }
+
+    .banner_text p {
+        font-size: 30px;
+    }
+
 }
 
 
@@ -41,6 +56,35 @@
     .banner .main {
         flex-direction: column-reverse;
     }
+
+
+    .banner_text {
+        margin-right: 0;
+        align-self: flex-start;
+    }
+
+    .banner {
+        padding: 45px 0 116px 0;
+    }
+
+    .banner_text h1 {
+        font-size: 45px;
+        line-height: 55px;
+        margin-top: 42px;
+    }
+
+    .banner_text p {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    .icon_area a {
+        padding: 10px 14px;
+    }
+
+    .image {
+        border: 35px solid #fff;
+    }
 }
 
 
@@ -70,6 +114,33 @@
 
     .banner .main {
         flex-direction: column-reverse;
+    }
+
+    .banner_text {
+        margin-right: 0;
+        align-self: flex-start;
+    }
+
+    .banner {
+        padding: 45px 0 116px 0;
+    }
+
+    .banner_text h1 {
+        font-size: 32px;
+        line-height: 48px;
+        margin-top: 42px;
+    }
+
+    .icon_area a {
+        padding: 5px 10px;
+    }
+
+    .image {
+        border: 30px solid #fff;
+    }
+
+    .banner_text p {
+        margin-bottom: 24px;
     }
 }
 

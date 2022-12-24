@@ -164,11 +164,7 @@ header .menu ul li {
 }
 
 .banner_text {
-    width: 50%;
-}
-
-.banner_img {
-    width: 50%;
+    margin-right: 150px;
 }
 
 .banner_text h1 {
